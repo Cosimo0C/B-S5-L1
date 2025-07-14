@@ -2,9 +2,11 @@ package cosimocrupi.L1.entities;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public abstract class Elemento {
     protected String nome;
     protected int calorie;
