@@ -1,4 +1,12 @@
 package cosimocrupi.L1.entities;
 
-public class Toppings {
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Toppings extends Elemento{
+    public Toppings(String nome, int calorie, double prezzo) {
+        super(nome, calorie, prezzo);
+    }
 }
